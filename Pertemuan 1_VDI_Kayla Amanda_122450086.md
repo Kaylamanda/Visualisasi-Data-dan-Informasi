@@ -9,6 +9,7 @@ Komunitas database telah meningkatkan kemampuan visualisasi data secara real-tim
 2. Arah Visualisasi Data
    
 Terdapat tiga arah yang membuat visualisasi data lebih efisien dan relevan bagi peneliti database:
+
     a. Spesifikasi Visualisasi: Pengguna dapat mengatur apa yang ingin mereka visualisasikan.
     
     b. Pendekatan Efisien: Proses pembuatan visualisasi harus cepat, terutama dalam manipulasi data dan pemetaan.

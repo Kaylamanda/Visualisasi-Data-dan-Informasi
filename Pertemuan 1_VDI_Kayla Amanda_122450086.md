@@ -10,7 +10,9 @@ Komunitas database telah meningkatkan kemampuan visualisasi data secara real-tim
    
 Terdapat tiga arah yang membuat visualisasi data lebih efisien dan relevan bagi peneliti database:
     a. Spesifikasi Visualisasi: Pengguna dapat mengatur apa yang ingin mereka visualisasikan.
+    
     b. Pendekatan Efisien: Proses pembuatan visualisasi harus cepat, terutama dalam manipulasi data dan pemetaan.
+    
     c. Rekomendasi Visualisasi: Sistem dapat memberikan rekomendasi cerdas untuk membantu pengguna.
 
 **Spesifikasi Visualisasi**
@@ -25,19 +27,33 @@ Dalam beberapa situasi, memberikan visualisasi yang tepat tidak selalu memungkin
 1. Visualisasi Data yang Tepat
    
 Menggunakan pernyataan SQL untuk memanipulasi data, kemudian menghasilkan visualisasi yang sesuai.
+
 a. Terjemahan Query
+
 Menggunakan kembali sistem yang sudah matang dengan menerjemahkan query visualisasi menjadi query SQL.
+
 b. Mengintegrasikan Sistem Visualisasi dengan DBMS
+
 Pendekatan yang menjanjikan adalah dengan mengintegrasikan pengambilan data dan rendering secara ketat.
+
 c. Kolom Penyimpanan
+
 Penyimpanan berbasis kolom menawarkan kinerja yang lebih baik dibandingkan dengan penyimpanan berbasis baris, terutama untuk visualisasi data.
+
 d. Indeks
+
 Membangun indeks berbasis pohon untuk mendukung pemfilteran data secara terus menerus.
+
 e. Komputasi Paralel
+
 Menggunakan komputasi paralel untuk mempercepat query agregasi pada data besar.
+
 f. Prediksi dan Pengambilan Awal
+
 Mempercepat eksplorasi data dengan memprediksi dan mengambil data yang mungkin diperlukan pada langkah berikutnya.
+
 g. Studi Kasus Menggunakan Kyrix dan Tableau
+
 Kyrix dan Tableau adalah dua alat yang digunakan dalam studi kasus untuk menunjukkan bagaimana sistem visualisasi dapat dioptimalkan. TDE dalam Tableau mengoptimalkan penyimpanan data, kompresi, dan efisiensi query.
 
 2. Perkiraan Visualisasi Data
